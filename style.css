@@ -1,3 +1,47 @@
-body{
-    background-color: green;
+@import url("variable.css");
+*{
+    margin: 0;
+    padding: 0;
 }
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.search_bar{
+    border-radius: 10px !important;
+}
+.search_bar input{
+    border: none;
+    width: 600px;
+    padding-left: 2px;
+    background-color: transparent;
+}
+.cart{
+    background-color: green !important;
+}
+#hero_section{
+display: flex;
+/* width: 958px;
+height: 175px; */
+padding-left: 85px !important;
+margin-bottom: 10px !important;
+}
+#multi_images{
+   width: 90vw; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 85px;
+}
+.scrollable_list{
+    width: 90vw;
+   overflow: hidden;
+   padding-left: 100px;
+}
+.scrollable_list .list{
+    text-wrap: nowrap;
+    text-align: justify;
+    overflow-x: scroll;
+    padding-top: 10px;
+ }
