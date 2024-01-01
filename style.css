@@ -247,7 +247,7 @@ nav{
 .scrollable_list{
     margin-top: 50px;
 }
-}
+
 .r3>p{
        width: 90%;
        text-align: justify;
@@ -262,4 +262,5 @@ nav{
 }
 #social_apps{
     margin-top: 20px;
+}
 }
