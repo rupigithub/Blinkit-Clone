@@ -4,6 +4,12 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+header{
+    width: 100vw;
+}
+nav{
+    width: 100%;
+}
 a{
     display: inline-block;
     text-decoration: none;
@@ -27,11 +33,13 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 .search_bar{
+    width: 40vw !important;
     border-radius: 10px !important;
 }
-.search_bar input{
-    border: none;
-    width: 600px;
+.search_bar>input{
+    /* width: 90%; */
+    border: none !important;
+    /* width: 600px; */
     padding-left: 2px;
     background-color: transparent;
 }
@@ -166,8 +174,8 @@ flex-direction: column;
 
 }
 footer{
-    width: 90vw;
-    padding-left: 100px;
+    width: 85vw;
+    margin: auto;
 }
 .r2{
     padding: 16px 0px;
@@ -180,9 +188,13 @@ footer{
     align-items: center;
 }
 .r2>p{
-    width: 30%;
+    width: 25vw;
+    padding: 5px;
+    text-align: justify;
 }
 #download_apps{
+    padding: 10px;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -190,16 +202,17 @@ footer{
     gap: 10px;
 }
 #social_apps{
+    width: 30vw;
    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     margin: 0px 12px;
 }
 .social_div{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
     background-color: black;
     color: white;
@@ -211,16 +224,21 @@ footer{
   
 } */
 .r3{
+    width: 85vw;
+    padding: 5px;
+    text-align: justify;
     font-size: 14px;
     color: rgb(102, 102, 102);
     font-family: 'Poppins', sans-serif;
     line-height: 18px;
     margin: 12px;
+
 }
 .r1{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     font-size: 14px;
     color: rgb(102, 102, 102);
     line-height: 18px;
@@ -238,11 +256,11 @@ nav{
 #hero_section{
     display: none;
 }
-.location_bar{
+.location_bar>h6{
     border: none !important;
 }
 .search_bar{
-    width: 50vw;
+    width: 80vw;
 }
 .scrollable_list{
     margin-top: 50px;
@@ -262,5 +280,6 @@ nav{
 }
 #social_apps{
     margin-top: 20px;
+    width: 90%;
 }
 }
