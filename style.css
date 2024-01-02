@@ -210,7 +210,7 @@ footer{
 #social_apps{
     width: 25vw;
    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -280,7 +280,7 @@ nav{
 
 .r2{
     flex-direction: column;
-    justify-content: center;
+    
     }
 .r2>p{
     width: 90%;
@@ -289,20 +289,21 @@ nav{
 #social_apps{
     margin-top: 20px;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 501px){
 /* #login,.cart{
     display: none !important;
 } */
-.r2 #download_apps{
+.r2>#download_apps{
     width: 15vw;
     flex-direction: column;
 }
-.r2 #social_apps{
+.r2>#social_apps{
     width: 45vw;
+    justify-content: center;
 }
 }
 
@@ -310,11 +311,11 @@ nav{
 /* #login,.cart{
     display: none !important;
 } */
-.r2 #download_apps{
+.r2>#download_apps{
         width: 15vw;
         flex-direction: column;
 }
-.r2 #social_apps{
+.r2>#social_apps{
     width: 45vw;
     justify-content: center;
 }
