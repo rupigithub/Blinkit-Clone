@@ -6,6 +6,9 @@
 }
 header{
     width: 100vw;
+    position: sticky;
+    z-index:1;
+    background-color: white;
 }
 nav{
     width: 100%;
